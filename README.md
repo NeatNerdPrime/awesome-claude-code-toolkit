@@ -766,7 +766,7 @@ Includes `--audit` (score your setup 0-100), `--scan` (detect tech stack, recomm
 
 ### GateGuard — Fact-Forcing PreToolUse Gate
 
-Install a single `PreToolUse` gate that blocks Edit/Write/Bash on first attempt, demanding investigation (importers, schemas, user instruction) before allowing. A/B tested: **+2.25 quality improvement**.
+Install a `PreToolUse` gate that blocks Edit/Write/Bash on first attempt, demanding investigation (importers, schemas, user instruction) before allowing. A/B tested: **+2.25 quality improvement**. Works as a standalone gate or alongside existing PreToolUse hooks — Claude Code runs all matching hooks in registration order, so GateGuard complements rather than replaces other guards.
 
 ```bash
 pip install gateguard-ai
