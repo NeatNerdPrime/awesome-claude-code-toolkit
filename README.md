@@ -151,6 +151,7 @@ Over 176 production-ready plugins that extend Claude Code with domain-specific c
 | [database-optimizer](plugins/database-optimizer/) | Database query optimization with index recommendations and EXPLAIN analysis |
 | [dead-code-finder](plugins/dead-code-finder/) | Find and remove dead code across the codebase |
 | [debug-session](plugins/debug-session/) | Interactive debugging workflow with git bisect integration |
+| [dig2crawl](https://github.com/ZENG3LD/dig2crawl) | Universal web crawler with Claude-powered CSS selector discovery. 4-level AI extraction escalation (CSS, browser actions, Claude Vision, captcha). Rust. |
 | [dependency-manager](plugins/dependency-manager/) | Audit, update, and manage project dependencies with safety checks |
 | [deploy-pilot](plugins/deploy-pilot/) | Deployment automation with Dockerfile generation, CI/CD pipelines, and infrastructure as code |
 | [desktop-app](plugins/desktop-app/) | Desktop application scaffolding with Electron or Tauri |
@@ -180,6 +181,7 @@ Over 176 production-ready plugins that extend Claude Code with domain-specific c
 | [flutter-mobile](plugins/flutter-mobile/) | Flutter app development with widget creation and platform channels |
 | [frontend-developer](plugins/frontend-developer/) | Frontend component development with accessibility and responsive design |
 | [gcp-helper](plugins/gcp-helper/) | Google Cloud Platform service configuration and deployment |
+| [gate4agent](https://github.com/ZENG3LD/gate4agent) | Universal Rust transport for CLI AI agents (Claude Code, Codex, Gemini, OpenCode). Pipe/NDJSON, PTY, and ACP modes. Published on crates.io. |
 | [git-flow](plugins/git-flow/) | Git workflow management with feature branches, releases, and hotfix flows |
 | [github-issue-manager](plugins/github-issue-manager/) | GitHub issue triage, creation, and management |
 | [harness-evolver](https://github.com/raphaelchristi/harness-evolver) | LangSmith-native autonomous agent optimization. Multi-agent proposers evolve prompts, routing, tools, and architecture in isolated git worktrees. Install: `npx harness-evolver@latest` |
