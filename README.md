@@ -1167,3 +1167,20 @@ Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 - [skylv-diff-viewer](https://github.com/SKY-lv/diff-viewer) - Diff comparison
 
 [ClawHub](https://clawhub.ai/skylv) | [Landing](https://sky-lv.github.io/awesome-openclaw-skills)
+
+---
+
+## Gear Foundation Skills
+
+21 skills that teach AI coding agents to build and ship Rust smart contracts on Vara Network with the Gear/Sails framework. Covers planning, implementation, testing, frontend, indexing, and on-chain deployment. Cross-harness (Claude Code, Codex, OpenClaw). MIT Licensed.
+
+- [ship-sails-app](https://github.com/gear-foundation/vara-skills/tree/main/skills/ship-sails-app) - Top-level router for the full build pipeline
+- [vara-wallet](https://github.com/gear-foundation/vara-skills/tree/main/skills/vara-wallet) - Agent deploys programs, calls Sails methods, transfers tokens, monitors events on-chain
+- [sails-rust-implementer](https://github.com/gear-foundation/vara-skills/tree/main/skills/sails-rust-implementer) - Rust/Sails code changes in real workspaces
+- [gtest-tdd-loop](https://github.com/gear-foundation/vara-skills/tree/main/skills/gtest-tdd-loop) - Deterministic local TDD loop for every behavior change
+- [sails-idl-client](https://github.com/gear-foundation/vara-skills/tree/main/skills/sails-idl-client) - IDL-driven codegen across app, client, and test crates
+- [sails-frontend](https://github.com/gear-foundation/vara-skills/tree/main/skills/sails-frontend) - React/TypeScript frontends with generated Sails-JS clients
+- [sails-indexer](https://github.com/gear-foundation/vara-skills/tree/main/skills/sails-indexer) - Event-driven read-side indexer and query API
+- [sails-program-evolution](https://github.com/gear-foundation/vara-skills/tree/main/skills/sails-program-evolution) - Safe cutover and state migration for released contracts
+
+[Repo](https://github.com/gear-foundation/vara-skills) | [Vara Network](https://vara.network)
