@@ -301,6 +301,7 @@ Over 176 production-ready plugins that extend Claude Code with domain-specific c
 | [Clarvia MCP](https://github.com/clarvia-project/scanner) | MCP quality scanner — scans any MCP server, returns AEO (Agent Engine Optimization) score. Indexes 27,843+ tools for instant lookup. 24 MCP tools (search, scan, compare, leaderboard, trending). `npx -y clarvia-mcp-server` |
 | [OraClaw](https://github.com/Whatsonyourmind/oraclaw) | Decision intelligence MCP server — 12 tools with 19 ML algorithms (multi-armed bandits, constraint solvers, forecasters, risk models, Q-learning, A*, simulated annealing). Sub-25ms responses, deterministic, 945 tests. `npx @oraclaw/mcp-server` |
 | [US Business Data MCP](https://github.com/avabuildsdata/mcp-us-business-data) | MCP server for US business data — search entities across 17 state Secretary of State databases, YellowPages leads, building permits from 47 cities, 20+ federal APIs (SEC, FDA, FEMA). Built in Go, on MCP Registry |
+| [weft](https://github.com/dioptx/weft) | Deterministic workflow tracking with event-sourced state — templates with skill chains, bounded loops, and per-step tool guards. Hooks block out-of-order tool calls; state survives compaction via an append-only event log. Stdlib-only Python core, 191 tests, MIT. Install: `/plugin marketplace add dioptx/weft` |
 
 ### Installing a Plugin
 
