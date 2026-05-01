@@ -255,6 +255,7 @@ Over 176 production-ready plugins that extend Claude Code with domain-specific c
 | [refactor-engine](plugins/refactor-engine/) | Extract functions, simplify complex code, and reduce cognitive complexity |
 | [regex-builder](plugins/regex-builder/) | Build, test, and debug regular expression patterns |
 | [release-manager](plugins/release-manager/) | Semantic versioning management and automated release workflows |
+| [repo-visuals](https://github.com/livlign/claude-skills/tree/main/plugins/repo-visuals) | Designs bespoke GitHub README hero visuals — animated GIF or static PNG — through a structured discovery dialog. Retina capture via Puppeteer + ffmpeg. Heroes merged into HTMLHint, Terminal.Gui, ast-graph. |
 | [responsive-designer](plugins/responsive-designer/) | Responsive design implementation and testing |
 | [review-squad](https://github.com/2389-research/review-squad) | Multi-perspective code review via dispatched subagent panels: experts, normie users, pedantic nitpickers, and real-user task runners |
 | [schema-designer](plugins/schema-designer/) | Database schema design and ERD generation |
