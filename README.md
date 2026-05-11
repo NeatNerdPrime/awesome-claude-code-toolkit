@@ -1153,6 +1153,7 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 | [The Froject](https://www.thefroject.com) | new | Free browser-based wizard that generates complete Claude Code workspaces for go-to-market teams (marketing, sales, customer success, HR, finance, operations). Downloads a ZIP including CLAUDE.md, context files, and pre-built skills, commands, agents, rules, hooks, and settings tailored to your role. Client-side, no backend. Plugin marketplace at [thefroject-plugins](https://github.com/bjorn-ingmanson/thefroject-plugins). |
 | [Bring Your AI](https://bringyour.ai/claude-code-to-codex) | -- | Local-first Claude Code to Codex migration path. Keeps harness files local, maps CLAUDE.md/AGENTS.md guidance and MCP config, and adds a Codex import checklist for hooks, secret refs, and non-equivalent behavior before Codex edits code. |
 | [Drevon](https://drevon.dev) | new | Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel. |
+| [voidly-mcp-server](https://github.com/voidly-ai/mcp-server) | new | 116 tools for Claude Code covering censorship intelligence (19.6M OONI measurements, 126 countries), E2E encrypted agent-to-agent messaging, and agent payments. Install: `claude mcp add voidly -- npx -y @voidly/mcp-server` |
 
 ---
 
